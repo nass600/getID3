@@ -14,7 +14,7 @@
         "php":                       ">=5.3.2"
     },
     "autoload": {
-        "psr-0": { "Nass600\\getID3": "getid3/" }
+        "files": ["getid3/getid3.php"]
     },
     "target-dir": "Nass600/GetID3"
 }
