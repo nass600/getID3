@@ -1,0 +1,20 @@
+{
+    "name": "nass600/get-id3",
+    "type": "php-library",
+    "description": "PHP library for handling audio/video files metadata",
+    "keywords": ["id3", "metadata", "mp3"],
+    "homepage": "https://github.com/nass600/getID3",
+    "license": "GNU",
+    "authors": [
+        {
+            "name": "James Heinrich"
+        }
+    ],
+    "require": {
+        "php":                       ">=5.3.2"
+    },
+    "autoload": {
+        "psr-0": { "Nass600\\getID3": "getid3/" }
+    },
+    "target-dir": "Nass600\GetID3"
+}
