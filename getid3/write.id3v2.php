@@ -1793,7 +1793,7 @@ class getid3_write_id3v2
 	}
 
 	function is_hash($var) {
-		// written by dev-nullØchristophe*vg
+		// written by dev-nullï¿½christophe*vg
 		// taken from http://www.php.net/manual/en/function.array-merge-recursive.php
 		if (is_array($var)) {
 			$keys = array_keys($var);
@@ -1808,7 +1808,7 @@ class getid3_write_id3v2
 	}
 
 	function array_join_merge($arr1, $arr2) {
-		// written by dev-nullØchristophe*vg
+		// written by dev-nullï¿½christophe*vg
 		// taken from http://www.php.net/manual/en/function.array-merge-recursive.php
 		if (is_array($arr1) && is_array($arr2)) {
 			// the same -> merge
@@ -2004,6 +2004,7 @@ class getid3_write_id3v2
 			$ID3v2ShortFrameNameLookup[3]['payment']                                          = 'WPAY';
 			$ID3v2ShortFrameNameLookup[3]['url_publisher']                                    = 'WPUB';
 			$ID3v2ShortFrameNameLookup[3]['url_user']                                         = 'WXXX';
+            $ID3v2ShortFrameNameLookup[3]['year']                                             = 'TYER';
 
 			// The above are common to ID3v2.3 and ID3v2.4
 			// so copy them to ID3v2.4 before adding specifics for 2.3 and 2.4
@@ -2018,7 +2019,6 @@ class getid3_write_id3v2
 			$ID3v2ShortFrameNameLookup[3]['original_release_year']                            = 'TORY';
 			$ID3v2ShortFrameNameLookup[3]['recording_dates']                                  = 'TRDA';
 			$ID3v2ShortFrameNameLookup[3]['size']                                             = 'TSIZ';
-			$ID3v2ShortFrameNameLookup[3]['year']                                             = 'TYER';
 
 
 			// The following are unique to ID3v2.4
