@@ -631,7 +631,6 @@ class getid3_bmp extends getid3_handler
 			echo 'ERROR: no pixel data<BR>';
 			return false;
 		}
-		set_time_limit(intval(round($BMPinfo['resolution_x'] * $BMPinfo['resolution_y'] / 10000)));
 		if ($im = ImageCreateTrueColor($BMPinfo['resolution_x'], $BMPinfo['resolution_y'])) {
 			for ($row = 0; $row < $BMPinfo['resolution_y']; $row++) {
 				for ($col = 0; $col < $BMPinfo['resolution_x']; $col++) {
