@@ -16,4 +16,9 @@
     "autoload": {
         "files": ["getid3/getid3.php", "getid3/write.php"]
     }
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
 }
