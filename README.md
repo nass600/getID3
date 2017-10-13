@@ -161,6 +161,7 @@ To analyze remote files over HTTP or FTP you need to copy the file
 locally first before running getID3(). Your code would look something
 like this:
 
+```php
 // Copy remote file locally to scan with getID3()
 $remotefilename = 'http://www.example.com/filename.mp3';
 if ($fp_remote = fopen($remotefilename, 'rb')) {
@@ -181,6 +182,7 @@ if ($fp_remote = fopen($remotefilename, 'rb')) {
     }
     fclose($fp_remote);
 }
+```
 
 
 See /demos/demo.write.php for how to write tags.
