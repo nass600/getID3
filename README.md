@@ -1,3 +1,10 @@
+# NOT MAINTAINED
+
+The solely purpose of this library was having this amazing library in github (it was originally in sourceforge) back at that time.
+
+The official repository is https://github.com/JamesHeinrich/getID3 and it is maintained by the only author of this library.
+
+
 /////////////////////////////////////////////////////////////////
 /// getID3() by James Heinrich <info@getid3.org>               //
 //  available at http://getid3.sourceforge.net                 //
